@@ -1,4 +1,4 @@
-import { LoremIpsum,loremIpsum } from 'lorem-ipsum';
+import { LoremIpsum } from 'lorem-ipsum';
 import { useEffect,useState } from 'react';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import './App.css';
@@ -8,7 +8,7 @@ import Output from './components/Output';
 
 function App() {
   const [paras,setParas] = useState(4)
-  const [sentence,setSentence] = useState(4)
+  // const [sentence,setSentence] = useState(4)
   const [html,setHtml] = useState(true)
   const [text,setText] = useState('')
   const [copied,setCopied] = useState(false)
@@ -18,6 +18,7 @@ function App() {
     return () => {
 
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   },[html,paras])
 
   useEffect(() => {
