@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# ReactJS Sample Text Generator
+
+from video by Brad Traversy
+
+Added Copy to clipboard and use current dependancies.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
